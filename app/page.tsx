@@ -1,12 +1,27 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
-import { Mail, Phone, Linkedin, Github, MapPin, Calendar, User, Globe } from "lucide-react"
-import ProfileHeader from "@/components/profile-header"
-import SkillsSection from "@/components/skills-section"
-import ProjectCard from "@/components/project-card"
-import TimelineItem from "@/components/timeline-item"
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Badge } from "@/components/ui/badge";
+import {
+  Mail,
+  Phone,
+  Linkedin,
+  Github,
+  MapPin,
+  Calendar,
+  User,
+  Globe,
+} from "lucide-react";
+import ProfileHeader from "@/components/profile-header";
+import SkillsSection from "@/components/skills-section";
+import ProjectCard from "@/components/project-card";
+import TimelineItem from "@/components/timeline-item";
 
 export default function ResumePage() {
   return (
@@ -31,14 +46,17 @@ export default function ResumePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  As a third-year Computer Science student at Parul Institute of Technology, I am passionate about
-                  becoming a skilled Full Stack Web Developer. I actively stay updated on technological advancements and
-                  enhance my expertise in web development to deliver impactful solutions.
+                  As a third-year Computer Science student at Parul Institute of
+                  Technology, I am passionate about becoming a skilled Full
+                  Stack Web Developer. I actively stay updated on technological
+                  advancements and enhance my expertise in web development to
+                  deliver impactful solutions.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed mt-4">
-                  I am proud to be the winner of the PU Code Hackathon (1st Prize), where my team, CrowdStrike,
-                  outperformed 750+ teams from 50+ universities. This achievement highlights my ability to collaborate
-                  under pressure and deliver results.
+                  I am proud to be the winner of the PU Code Hackathon (1st
+                  Prize), where my team, CrowdStrike, outperformed 750+ teams
+                  from 50+ universities. This achievement highlights my ability
+                  to collaborate under pressure and deliver results.
                 </p>
               </CardContent>
             </Card>
@@ -49,23 +67,33 @@ export default function ResumePage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="font-semibold text-lg">Backend Developer - PU Code Hackathon (1st Prize)</h3>
+                  <h3 className="font-semibold text-lg">
+                    Backend Developer - PU Code Hackathon (1st Prize)
+                  </h3>
                   <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mt-2 space-y-1">
-                    <li>Played a pivotal role as the backend developer in a team of skilled professionals.</li>
                     <li>
-                      Responsible for designing and implementing APIs, efficiently fetching data, and ensuring seamless
+                      Played a pivotal role as the backend developer in a team
+                      of skilled professionals.
+                    </li>
+                    <li>
+                      Responsible for designing and implementing APIs,
+                      efficiently fetching data, and ensuring seamless
                       integration with the overall system.
                     </li>
                     <li>
-                      Demonstrated strong problem-solving abilities, teamwork, and technical expertise under challenging
-                      and competitive circumstances.
+                      Demonstrated strong problem-solving abilities, teamwork,
+                      and technical expertise under challenging and competitive
+                      circumstances.
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">Placement Cell Coordinator</h3>
+                  <h3 className="font-semibold text-lg">
+                    Placement Cell Coordinator
+                  </h3>
                   <p className="text-gray-700 dark:text-gray-300 mt-1">
-                    Managed 10+ placement drives, engaged 30+ companies, and facilitated recruitment of 200+ students.
+                    Managed 10+ placement drives, engaged 30+ companies, and
+                    facilitated recruitment of 200+ students.
                   </p>
                 </div>
               </CardContent>
@@ -79,15 +107,21 @@ export default function ResumePage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center gap-2">
                     <User className="h-5 w-5 text-gray-500" />
-                    <span className="text-gray-700 dark:text-gray-300">Gender: Male</span>
+                    <span className="text-gray-700 dark:text-gray-300">
+                      Gender: Male
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <User className="h-5 w-5 text-gray-500" />
-                    <span className="text-gray-700 dark:text-gray-300">Marital Status: Single</span>
+                    <span className="text-gray-700 dark:text-gray-300">
+                      Marital Status: Single
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Calendar className="h-5 w-5 text-gray-500" />
-                    <span className="text-gray-700 dark:text-gray-300">Date of Birth: 12 Aug, 2003</span>
+                    <span className="text-gray-700 dark:text-gray-300">
+                      Date of Birth: 12 Aug, 2003
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Globe className="h-5 w-5 text-gray-500" />
@@ -113,7 +147,9 @@ export default function ResumePage() {
             <Card>
               <CardHeader>
                 <CardTitle>Technical Skills</CardTitle>
-                <CardDescription>My expertise in various technologies</CardDescription>
+                <CardDescription>
+                  My expertise in various technologies
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <SkillsSection />
@@ -179,12 +215,74 @@ export default function ResumePage() {
               <ProjectCard
                 title="Medisync"
                 teamSize={4}
-                skills={["ReactJS", "NodeJS", "MongoDB", "Express", "System Design", "API"]}
+                skills={[
+                  "ReactJS",
+                  "NodeJS",
+                  "MongoDB",
+                  "Express",
+                  "System Design",
+                  "API",
+                ]}
                 description="Online Doctors Appointment System"
                 points={[
                   "Online checkup through video call",
                   "Direct connection between doctor and patient within seconds",
                   "Online personal health Assistant",
+                ]}
+              />
+
+              <ProjectCard
+                title="Fake Job Post Predictor"
+                teamSize={1}
+                skills={[
+                  "Machine Learning",
+                  "Python",
+                  "Pandas",
+                  "Scikit-learn",
+                  "NLP",
+                  "Data Visualization",
+                ]}
+                description="A system to identify fake job postings using machine learning techniques."
+                points={[
+                  "Predicts the legitimacy of job posts based on metadata and job descriptions",
+                  "Uses NLP to analyze text patterns in job listings",
+                  "Visualizes key indicators of fraudulent job posts through data dashboards",
+                ]}
+              />
+
+              <ProjectCard
+                title="PasteApp"
+                teamSize={1}
+                skills={["ReactJS", "NodeJS", "Local Storage", "Clipboard API"]}
+                description="A lightweight snippet management app built with local storage, ideal for quick note-keeping and sharing."
+                points={[
+                  "Create, read, update, and delete snippets using local storage",
+                  "Copy text directly to clipboard with a single click",
+                  "Share snippets easily using generated shareable links",
+                  "Perfect for students and developers to store and manage code snippets locally",
+                ]}
+              />
+
+              <ProjectCard
+                title="KnowMe"
+                teamSize={1}
+                skills={[
+                  "ReactJS",
+                  "NodeJS",
+                  "ExpressJS",
+                  "MongoDB",
+                  "JWT",
+                  "Tailwind CSS",
+                  "Multer",
+                  "Cookie-Parser",
+                ]}
+                description="A dynamic social platform where users express thoughts and share knowledge with a learning-driven community."
+                points={[
+                  "Secure login and registration with JWT-based authentication",
+                  "Create, like, and delete posts with an interactive UI",
+                  "Upload and customize profile pictures using Multer",
+                  "Engage with the community through meaningful interactions",
+                  "Efficient session handling with Cookie-Parser",
                 ]}
               />
             </div>
@@ -198,14 +296,19 @@ export default function ResumePage() {
               <CardContent>
                 <div className="space-y-6">
                   <div className="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-200 dark:border-green-800">
-                    <h3 className="font-bold text-xl text-green-700 dark:text-green-400">Won PU Code Hackathon</h3>
+                    <h3 className="font-bold text-xl text-green-700 dark:text-green-400">
+                      Won PU Code Hackathon
+                    </h3>
                     <p className="text-gray-700 dark:text-gray-300 mt-2">
-                      1st Prize winner among 750+ teams from 50+ universities with team CrowdStrike.
+                      1st Prize winner among 750+ teams from 50+ universities
+                      with team CrowdStrike.
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="font-semibold text-lg mb-3">Certifications</h3>
+                    <h3 className="font-semibold text-lg mb-3">
+                      Certifications
+                    </h3>
                     <ul className="space-y-2">
                       <li className="flex items-center gap-2">
                         <Badge>Certificate</Badge>
@@ -239,7 +342,10 @@ export default function ResumePage() {
                       <Phone className="h-5 w-5 text-gray-500" />
                       <div>
                         <p className="text-sm text-gray-500">Primary</p>
-                        <a href="tel:+919352868523" className="text-gray-700 dark:text-gray-300 hover:underline">
+                        <a
+                          href="tel:+919352868523"
+                          className="text-gray-700 dark:text-gray-300 hover:underline"
+                        >
                           +91-9352868523
                         </a>
                       </div>
@@ -249,7 +355,10 @@ export default function ResumePage() {
                       <Phone className="h-5 w-5 text-gray-500" />
                       <div>
                         <p className="text-sm text-gray-500">Secondary</p>
-                        <a href="tel:+919460716915" className="text-gray-700 dark:text-gray-300 hover:underline">
+                        <a
+                          href="tel:+919460716915"
+                          className="text-gray-700 dark:text-gray-300 hover:underline"
+                        >
                           +91-9460716915
                         </a>
                       </div>
@@ -258,7 +367,9 @@ export default function ResumePage() {
                     <div className="flex items-center gap-3">
                       <Mail className="h-5 w-5 text-gray-500" />
                       <div>
-                        <p className="text-sm text-gray-500">University Email</p>
+                        <p className="text-sm text-gray-500">
+                          University Email
+                        </p>
                         <a
                           href="mailto:2203051050296@paruluniversity.ac.in"
                           className="text-gray-700 dark:text-gray-300 hover:underline break-all"
@@ -288,7 +399,8 @@ export default function ResumePage() {
                       <div>
                         <p className="text-sm text-gray-500">Address</p>
                         <p className="text-gray-700 dark:text-gray-300">
-                          Hanuman Chowk Chawani Sheoganj, Sirohi, Rajasthan, India - 307027
+                          Hanuman Chowk Chawani Sheoganj, Sirohi, Rajasthan,
+                          India - 307027
                         </p>
                       </div>
                     </div>
@@ -336,5 +448,5 @@ export default function ResumePage() {
         </Tabs>
       </div>
     </div>
-  )
+  );
 }
