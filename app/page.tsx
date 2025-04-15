@@ -285,6 +285,27 @@ export default function ResumePage() {
                   "Efficient session handling with Cookie-Parser",
                 ]}
               />
+
+              <ProjectCard
+                title="Machine Learning Projects"
+                teamSize={1}
+                skills={[
+                  "Python",
+                  "Pandas",
+                  "NumPy",
+                  "Matplotlib",
+                  "Scikit-learn",
+                  "Google Colab",
+                ]}
+                description="A collection of beginner to intermediate-level machine learning projects for hands-on learning and practice."
+                points={[
+                  "Implemented algorithms like Linear Regression, Logistic Regression, K-Means Clustering, and KNN",
+                  "Performed real-world data analysis on datasets like Diwali Sales, Insurance, and Home Prices",
+                  "Utilized various Python libraries including Pandas, NumPy, and Matplotlib",
+                  "Explored and visualized datasets for insights and feature relationships",
+                  "Worked on Google Colab for easy code sharing and execution",
+                ]}
+              />
             </div>
           </TabsContent>
 
