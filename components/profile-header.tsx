@@ -94,6 +94,9 @@ export default function ProfileHeader() {
                   MongoDB
                 </span>
                 <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
+                  Java
+                </span>
+                <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
                   Problem Solving
                 </span>
                 <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
