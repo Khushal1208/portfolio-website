@@ -34,6 +34,9 @@ export default function ProfileHeader() {
               <span className="text-sm truncate">
                 2203051050296@paruluniversity.ac.in
               </span>
+              <span className="text-sm truncate">
+                khushalparmar1208@gmail.com
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
@@ -92,6 +95,15 @@ export default function ProfileHeader() {
                 </span>
                 <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
                   Problem Solving
+                </span>
+                <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
+                  Leadership Experience
+                </span>
+                <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
+                 Tableau
+                </span>
+                <span className="px-3 py-1 bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-100 rounded-full text-sm">
+                  Github
                 </span>
               </div>
             </div>
