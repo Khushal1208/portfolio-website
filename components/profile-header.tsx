@@ -55,7 +55,7 @@ export default function ProfileHeader() {
                 Computer Science Student
               </p>
             </div>
-            <a href="/Khushal_Parmar_CV.pdf" download>
+            <a href="/Resume_JOB.pdf" download>
               <Button variant="outline" className="mt-4 md:mt-0" size="sm">
                 <Download className="mr-2 h-4 w-4" /> Download CV
               </Button>
