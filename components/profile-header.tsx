@@ -32,9 +32,6 @@ export default function ProfileHeader() {
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
               <span className="text-sm truncate">
-                2203051050296@paruluniversity.ac.in
-              </span>
-              <span className="text-sm truncate">
                 khushalparmar1208@gmail.com
               </span>
             </div>
